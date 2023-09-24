@@ -1,25 +1,41 @@
 .bundle-info {
   display: flex;
   justify-content: space-around;
+  background-image: url('../../../public/assets/img/bundle_background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bundle-item-list {
+    width: 632px;
 }
 
 .bundle-item {
-  display: flex;
-//   justify-content: space-between;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 3fr 1fr 1fr;
   border-radius: 1px;
   border: 1px solid rgba(103, 29, 0, 0.48);
   padding: 5px;
   margin-bottom: 1px;
+  cursor: pointer;
 }
 
 .bundle-item-title {
   color: #fff;
+  font-size: 16px;
 }
 
 .bundle-price {
   color: #fff;
   font-size: 50px;
   font-weight: 400;
+}
+
+.bundle-price-block {
+    display: flex;
+    position: relative;
+    margin-left: 42px;
 }
 
 .buy-btn {
@@ -30,4 +46,5 @@
   padding: 12px 15px;
   font-size: 16px;
   color: #000;
+  cursor: pointer;
 }

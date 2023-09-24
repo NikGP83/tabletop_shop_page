@@ -41,8 +41,10 @@ function BundleInfo({ bundleData }: BundleInfoProps) {
             alt="Картинка товара"
             className="bundle-price-image"
           />
-          <span className="bundle-price">{cost} &#x20bd;</span>
-          <button className="buy-btn">Приобрести</button>
+          <div>
+            <div className="bundle-price">{cost} &#x20bd;</div>
+            <button className="buy-btn">Приобрести</button>
+          </div>
         </div>
       </div>
     </section>
