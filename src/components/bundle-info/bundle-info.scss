@@ -1,0 +1,33 @@
+.bundle-info {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bundle-item {
+  display: flex;
+//   justify-content: space-between;
+  border-radius: 1px;
+  border: 1px solid rgba(103, 29, 0, 0.48);
+  padding: 5px;
+  margin-bottom: 1px;
+}
+
+.bundle-item-title {
+  color: #fff;
+}
+
+.bundle-price {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.buy-btn {
+  width: 180px;
+  text-transform: uppercase;
+  border-radius: 7px;
+  background-color: #fcff00;
+  padding: 12px 15px;
+  font-size: 16px;
+  color: #000;
+}
