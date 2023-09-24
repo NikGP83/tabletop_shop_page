@@ -1,9 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 function OfferRoom() {
-  return (
-    <div>OfferRoom</div>
-  )
+  return <div>OfferRoom</div>;
 }
 
-export default OfferRoom
+export default OfferRoom;
