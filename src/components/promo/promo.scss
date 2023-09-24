@@ -1,0 +1,33 @@
+.promo {
+  position: relative;
+}
+
+.promo-description-wrapper {
+  position: absolute;
+  bottom: 9%;
+  left: 50%;
+  transform: translate(-50%, -9%);
+}
+
+.promo-image {
+  object-fit: contain;
+  width: 100%;
+}
+
+.promo-description-title {
+  color: #fff;
+  font-size: 42px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.promo-promo-description-text-wrapper {
+    text-align: center;
+}
+
+.promo-promo-text {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+}

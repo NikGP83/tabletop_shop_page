@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { getMockData } from '../../api/getMockData';
 import { Response } from '../../types/types';
-import OfferRoom from '../offer-room/offer-room';
+import Promo from '../promo/promo';
+import { promoInfo } from '../../mock/mockData';
 
 function App() {
   const [data, setData] = useState<Response>();
@@ -16,7 +17,7 @@ function App() {
 
   return (
     <div className="App">
-      <OfferRoom />
+      <Promo {...promoInfo} />
     </div>
   );
 }

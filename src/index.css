@@ -1,6 +1,41 @@
-body {
-  margin: 0;
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/Roboto-Regular.woff2') format('woff2'), 
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/RobotoCondensed-Bold.woff2') format('woff2'), 
+}
 
+body {
+  min-width: 320px;
+  font-family: 'Roboto';
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+img {
+  height: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+
+  @media (min-width: 768px) {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
 }
 
 
