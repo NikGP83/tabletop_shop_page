@@ -1,4 +1,4 @@
-# Адаптивная страница приложения для Astrum Entertainment
+# Фикс страница приложения для Astrum Entertainment
 
   Стек: React/TypeScript/Scss
   фикс без адаптива
