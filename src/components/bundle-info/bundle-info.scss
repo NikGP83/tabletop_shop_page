@@ -2,12 +2,18 @@
   display: flex;
   justify-content: space-around;
   background-image: url('../../../public/assets/img/bundle_background.png');
+  background-position: 37%;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 .bundle-item-list {
-    width: 632px;
+  width: 632px;
+}
+
+.bundle-price {
+  width: 184px;
+  margin-bottom: 53px;
 }
 
 .bundle-item {
@@ -19,6 +25,23 @@
   padding: 5px;
   margin-bottom: 1px;
   cursor: pointer;
+}
+
+.bundle-prop-img-block {
+  position: relative;
+}
+
+.bundle-prop-img {
+  position: absolute;
+  left: 68px;
+  height: 891px;
+  bottom: 112px;
+}
+
+@media (max-width: 1770px) {
+  .bundle-prop-img-block {
+    display: none;
+  }
 }
 
 .bundle-item-title {
@@ -33,9 +56,10 @@
 }
 
 .bundle-price-block {
-    display: flex;
-    position: relative;
-    margin-left: 42px;
+  display: flex;
+  align-items: end;
+  position: relative;
+  margin-left: 42px;
 }
 
 .buy-btn {

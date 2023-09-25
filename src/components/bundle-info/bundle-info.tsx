@@ -37,12 +37,12 @@ function BundleInfo({ bundleData }: BundleInfoProps) {
         </ul>
         <div className="bundle-price-block">
           <img
-            src="../assets/img/bundle_box.png"
+            src="../assets/img/box_bundle.png"
             alt="Картинка товара"
             className="bundle-price-image"
           />
-          <div>
-            <div className="bundle-price">{cost} &#x20bd;</div>
+          <div className="bundle-price">
+            {cost} &#x20bd;
             <button className="buy-btn">Приобрести</button>
           </div>
         </div>
